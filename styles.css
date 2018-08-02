@@ -1,3 +1,6 @@
+body {
+ height: 100vh;
+}
 .flex {
 display: flex;
 flex-direction: column;
