@@ -25,16 +25,14 @@
   <label for="number" id="number-label">Number: </label>
   <input id="number" type="text" name="number" placeholder="Phone Number">
   
-  <label for="dropdown" id="dropdown-label">How would you rate your overall experience with us from today's visit?</label>
-  <div class="flex" id="dropdown">
-   <button id="dropbtn">--Select Rating--</button>
-   <div class="flex" id="dropdown-content">
-    <a href="#">4 - Excellent!</a>
-    <a href="#">3 - Very good</a>
-    <a href="#">2 - Okay</a>
-    <a href="#">1 - Poor</a>
-   </div>
-  </div>
+  <label for="dropdown">How would you rate your overall experience with us from today's visit?</label>
+  <select id="dropdown">
+   <option name="rating" value="placeholder">---</option>
+   <option name="rating" value="excellent">4 - Excellent!</option>
+   <option name="rating" value="very-good">3 - Very good</option>
+   <option name="rating" value="okay">2 - Okay</option>
+   <option name="rating" value="poor">1 - Poor</option>
+  </select>
   
   <fieldset>
    <legend>What was the <em>main</em> ice cream treat did you order today?</legend>
