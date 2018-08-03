@@ -1,11 +1,10 @@
 body {
- height: 125vh;
+ height: 100vh;
 }
 .flex {
 display: flex;
 flex-direction: column;
 justify-content: stretch;
 align-items: flex-start;
-align-content: space-between;
 width: 100vw;
 }
