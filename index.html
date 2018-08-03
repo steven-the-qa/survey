@@ -16,14 +16,14 @@
  </header>
 
  <form id="survey-form" class="flex">
-  <label for="name" id="name-label">Name: </label>
-  <input id="name" type="text" name="name" placeholder="Full Name">
+  <label for="name" id="name-label">*Name: </label>
+  <input id="name" type="text" name="name" placeholder="Jeff McJeffrey" required>
                               
-  <label for="email" id="email-label">E-mail: </label>
-  <input id="email" type="text" name="email" placeholder="E-Mail">
+  <label for="email" id="email-label">*E-mail: </label>
+  <input id="email" type="text" name="email" placeholder="example@mail.com" required>
                                
-  <label for="number" id="number-label">Number: </label>
-  <input id="number" type="text" name="number" placeholder="Phone Number">
+  <label for="age" id="age-label">*Age: </label>
+  <input id="age" type="text" name="age" placeholder="1" required>
   
   <label for="dropdown">How would you rate your overall experience with us from today's visit?</label>
   <select id="dropdown">
@@ -95,7 +95,7 @@
    </div>
   </fieldset>
   
-  <textarea rows="6" cols="80" form="survey-form" maxlength="500" required="required" wrap="hard">
+  <textarea rows="6" cols="80" form="survey-form" maxlength="500" wrap="hard">
    Let us know what else we can do to make your summer experience even sweeter!
   </textarea>
   
