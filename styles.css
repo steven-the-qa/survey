@@ -16,9 +16,9 @@ width: 100%;
 #dropdown {
  
 }
-.dropbtn {
+#dropbtn {
  display: inline-block;
 }
-.dropdown-content {
+#dropdown-content {
  align-items: flex-end;
 }
