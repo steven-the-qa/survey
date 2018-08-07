@@ -1,5 +1,7 @@
 body {
  height: 100vh;
+ background-color: magenta;
+ color: gold;
 }
 .flex {
 display: flex;
