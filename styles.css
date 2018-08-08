@@ -27,6 +27,9 @@ width: 100vw;
  border: none;
  background-color: limegreen;
  color: white;
+ border-radius: 5px;
+ width: 25px;
+ height: 10px;
 }
 #submit:hover {
  border: 2px solid magenta;
