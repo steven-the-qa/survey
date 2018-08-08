@@ -1,3 +1,12 @@
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) 
+    and (orientation: landscape) { 
+ body {
+  height: 200vh;
+     }
+}
 @import url('https://fonts.googleapis.com/css?family=Lato');
 body {
  height: 150vh;
