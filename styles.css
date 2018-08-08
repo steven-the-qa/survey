@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 body {
- height: 100vh;
+ height: 150vh;
  width: 100vw;
  background-color: magenta;
  color: black;
@@ -32,6 +32,7 @@ body {
  justify-content: center;
  align-items: center;
  width: 50vw;
+ margin: 20px;
 }
 #survey-form {
  background-color: #F0EAD6;
