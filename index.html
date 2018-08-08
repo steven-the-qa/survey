@@ -6,25 +6,33 @@
  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </head>
 
-<body class="flex">
+<body>
 <main>
   
- <header class="flex">
+ <header>
   <h1 id="title">McJeffrey's Customer Experience Survey</h1>
   <p id="description">Thank you for choosing McJeffrey's Ice Cream Shoppe for your summer treat today! We would love to hear how 
    your visit went!</p>
  </header>
 
- <form id="survey-form" class="flex">
+ <form id="survey-form">
+  
+  <div class="flex">
   <label for="name" id="name-label">*Name: </label>
   <input id="name" type="text" name="name" placeholder="Jeff McJeffrey" required>
-                              
+  </div>
+  
+  <div class="flex">
   <label for="email" id="email-label">*E-mail: </label>
   <input id="email" type="email" name="email" placeholder="example@mail.com" required>
-                               
+  </div>
+  
+  <div class="flex">
   <label for="number" id="number-label">*Age: </label>
   <input id="number" type="number" name="age" placeholder="1" min="1" max="120" required>
+  </div>
   
+  <div class="flex">
   <label for="dropdown">How would you rate your overall experience with us from today's visit?</label>
   <select id="dropdown">
    <option name="rating" value="placeholder">---</option>
@@ -33,6 +41,8 @@
    <option name="rating" value="okay">2 - Okay</option>
    <option name="rating" value="poor">1 - Poor</option>
   </select>
+  </div>
+  
   
   <fieldset>
    <legend>What was the <em>main</em> ice cream treat you ordered today?</legend>
