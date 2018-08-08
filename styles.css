@@ -30,6 +30,7 @@ width: 100vw;
  border-radius: 5px;
  width: 25px;
  height: 10px;
+ margin: 20px;
 }
 #submit:hover {
  border: 2px solid magenta;
