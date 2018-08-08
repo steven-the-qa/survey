@@ -8,6 +8,9 @@ body {
 }
 header {
  width: 100vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 main {
  display: flex;
@@ -15,6 +18,13 @@ main {
  justify-content: center;
  align-items: center;
  width: 50vw;
+}
+body {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 100vw;
 }
 .flex {
  display: flex;
