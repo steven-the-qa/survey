@@ -13,3 +13,17 @@ justify-content: stretch;
 align-items: center;
 width: 100vw;
 }
+form {
+ background-color: #F0EAD6;
+}
+label {
+ display: inline-block;
+}
+#submit {
+ border: none;
+ background-color: limegreen;
+ color: white;
+}
+#submit:hover {
+ border: 2px solid white;
+}
