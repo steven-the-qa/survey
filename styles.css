@@ -40,6 +40,7 @@ body {
  flex-direction: column;
  justify-content: space-between;
  align-items: center;
+ border-radius: 10px;
 }
 #submit {
  border: none;
