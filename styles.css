@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 body {
- height: 100vh;
+ height: 150vh;
  width: 100vw;
  background-color: magenta;
  color: black;
@@ -11,6 +11,7 @@ header {
  display: flex;
  justify-content: center;
  align-items: center;
+ flex-direction: column;
 }
 main {
  display: flex;
@@ -35,6 +36,7 @@ body {
 #survey-form {
  background-color: #F0EAD6;
  width: 50vw;
+ height: 100vh;
  display: flex;
  flex-direction: column;
  justify-content: stretch;
@@ -46,8 +48,8 @@ body {
  background-color: limegreen;
  color: white;
  border-radius: 5px;
- width: 180px;
- height: 70px;
+ width: 100px;
+ height: 40px;
  margin: 20px;
 }
 #submit:hover {
