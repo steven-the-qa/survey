@@ -35,7 +35,6 @@ body {
  margin: 20px;
 }
 #survey-form {
- overflow: scroll;
  background-color: #F0EAD6;
  width: 50vw;
  height: 100vh;
