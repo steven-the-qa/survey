@@ -3,7 +3,7 @@
     and (max-height : 750px) 
     and (orientation: landscape) {
  #survey-form {
-  height: 200%;
+  height: 150vh;
      }
 }
 @media only screen 
@@ -11,7 +11,7 @@
     and (max-height : 750px) 
     and (orientation: portrait) {
  #survey-form {
-  height: 50%;
+  height: 75vh;
      }
 }
 @import url('https://fonts.googleapis.com/css?family=Lato');
