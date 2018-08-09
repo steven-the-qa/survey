@@ -28,6 +28,7 @@ main {
  justify-content: flex-start;
  align-items: center;
  width: 50vw;
+ height: 150vh;
 }
 body {
  display: flex;
@@ -46,7 +47,7 @@ body {
 #survey-form {
  background-color: #F0EAD6;
  width: 50vw;
- height: 100vh;
+ height: 150vh;
  display: flex;
  flex-direction: column;
  justify-content: space-between;
