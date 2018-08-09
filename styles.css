@@ -1,3 +1,12 @@
+@media only screen 
+    and (max-width : 425px) 
+    and (max-height : 750px) 
+    and (orientation: landscape) {
+ body {
+  height: 200vh;
+     }
+}
+
 @import url('https://fonts.googleapis.com/css?family=Lato');
 body {
  height: 150vh;
