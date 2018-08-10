@@ -37,8 +37,8 @@ body {
 }
 #survey-form {
  background-color: #F0EAD6;
- width: 80%;
- height: 80%;
+ width: 100%;
+ height: 200%;
  display: flex;
  flex-direction: column;
  justify-content: space-between;
