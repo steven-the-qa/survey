@@ -48,7 +48,7 @@ body {
  display: flex;
  justify-content: center;
  align-items: center;
- width: 50vw;
+ width: 50%;
 }
 #survey-form {
  background-color: #F0EAD6;
@@ -66,8 +66,8 @@ body {
  background-color: limegreen;
  color: white;
  border-radius: 5px;
- width: 10%;
- height: 10%;
+ width: 50%;
+ height: 100%;
 }
 #submit:hover {
  border: 2px solid magenta;
