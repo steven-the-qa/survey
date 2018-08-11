@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
+div, label, input, fieldset, legend {
+ margin: 0;
+}
 body {
  height: 350vh;
  width: 100vw;
