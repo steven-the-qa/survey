@@ -27,6 +27,10 @@ header {
  flex-direction: column;
  font-size: 90%;
 }
+#description {
+ text-align: center;
+ width: 80%;
+}
 #survey-form {
  background-color: #F0EAD6;
  width: 50%;
