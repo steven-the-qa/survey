@@ -37,7 +37,7 @@ header {
 #survey-form {
  background-color: #F0EAD6;
  width: 50%;
- height: 250%;
+ height: auto;
  display: flex;
  flex-direction: column;
  justify-content: space-around;
