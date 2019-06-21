@@ -5,6 +5,7 @@ header {
   justify-content: center;
   align-items: center;
   width: 30%;
+  text-align: center;
 }
 main {
   display: flex;
