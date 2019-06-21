@@ -1,66 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
-div, label, input, fieldset, legend {
- margin: 0;
-}
-body {
- height: 350vh;
- width: 100vw;
- background-color: lightblue;
- color: black;
- font-family: 'Lato', sans-serif;
- display: flex;
- flex-direction: column;
- justify-content: flex-start;
- align-items: center;
+@import url("https://fonts.googleapis.com/css?family=Lato");
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
 }
 main {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- width: 100%;
- height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-header {
- width: 100%;
- height: 20%;
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;
- font-size: 90%;
+body {
+  background-color: firebrick;
+  height: 100vh;
+  width: 100vw;
+  color: lightskyblue;
+  font-family: "Lato", sans-serif;
 }
-#description {
- text-align: center;
- width: 80%;
+#form-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 70vh;
 }
-#survey-form {
- background-color: #F0EAD6;
- width: 50%;
- height: 250%;
- display: flex;
- flex-direction: column;
- justify-content: space-around;
- align-items: center;
- border-radius: 10px;
- padding: 0 20 0 20;
+form {
+  width: 30%;
+}
+textarea {
+  width: 100%;
+  text-align: left;
 }
 #submit {
- border: none;
- font-size: 20px;
- background-color: limegreen;
- color: white;
- border-radius: 5px;
- width: 100px;
- height: 40px;
- margin: 20px;
+  height: 30px;
+  width: 70px;
+  background-color: #fdfd96;
+  border-color: black;
+  font-weight: bold;
 }
 #submit:hover {
- border: 2px solid magenta;
-}
-.flex {
- display: flex;
- justify-content: center;
- align-items: center;
- width: 50vw;
+  background-color: lightskyblue;
+  border-color: white;
+  text-decoration: underline;
 }
